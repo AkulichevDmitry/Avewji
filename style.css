@@ -1,0 +1,449 @@
+:root {
+    --text-main-color: #212529;
+}
+
+body {
+    padding: 0 32px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding-top: 12px;
+}
+
+nav {
+    margin-left: 860px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+nav a, .phone-number {
+    color: var(--text-main-color);
+    font-family:  'Rubik', sans-serif;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+.phone-number {
+    margin-left: 208px;
+}
+.exclusive-title {
+ color: var(--text-main-color);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 86.4px */
+    text-transform: uppercase;
+}
+
+.exclusive-title-container {
+    display: flex;
+}
+.exclusive-title-container a {
+    margin-left: 418px;
+    margin-top: 250px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;color: var(--text-main-color, #212529);
+    /* text/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.exclusive-subtitle {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.image-container {
+    margin-top: 40px;
+}
+.img-1 {
+    margin-left: 254px;
+}
+
+.about-company {
+    margin-top: 120px;
+}
+
+.experience {
+    color: var(--text-main-color, #212529);
+    font-family: "Helvetica", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    color: var(--text-main-color, #212529);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 16px;
+}
+
+.other-info {
+    margin-left: 135px;
+}
+
+.other-info  .info-block{
+    margin-top: 24px;
+}
+
+.other-info .info-block h3 {
+    color: var(--text-main-color, #212529);
+    /* title/h3 */
+    font-family: "Helvetica", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.other-info .info-block p {
+    color: var(--text-main-color, #212529);
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.info {
+    display: flex;
+}
+
+.how-we-work {
+    margin-top: 120px;
+    display: flex;
+}
+
+.how-we-work h1 {
+    color: var(--text-main-color, #212529);
+    /* title/h2 */
+    font-family: "Helvetica", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.how-we-work .table-container h4 {
+    margin-top: 10px;
+    color: var(--text-main-color, #212529);
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.table-container {
+    margin-left: 140px;
+}
+
+table {
+    margin-top: 44px;
+    display: flex;
+}
+
+table td {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 24px 0;
+}
+
+table td p {
+    color: var(--text-main-color, #212529);
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+table td h2 {
+    color: var(--text-main-color, #212529);
+    /* title/h3 */
+    font-family: "Helvetica", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+    width: 386px;
+    height: 100px;
+}
+
+.projects-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects h1 {
+    color: var(--text-main-color, #212529);
+    /* title/h2 */
+    font-family: "Helvetica", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.projects-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-image-container {
+    height: 580px;
+    width: 445px;
+    margin-bottom: 20px;
+}
+
+#st {
+    position: relative;
+    background: url("./img/project-image-1.png"), no-repeat;;
+}
+
+#st .text {
+    display: flex;
+    align-items: center;
+    background-color: rgba(33, 37, 41, 0.50);;
+    padding: 20px 22px;
+    height: 66px;
+    width: 100%;
+    margin-top: 514px;
+    color: #FFF;
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+#st .text .arrow {
+    text-align: right;
+    margin-left: 231px;
+}
+
+#nd {
+    background: url("./img/project-image-2.png"), no-repeat;
+}
+
+#rd {
+    background: url("./img/project-image-3.png"), no-repeat;
+}
+
+#fourth {
+    background: url("./img/project-image-4.png"), no-repeat;
+}
+
+#fifth {
+    background: url("./img/project-image-5.png"), no-repeat;
+}
+
+#sixth {
+    background: url("./img/project-image-6.png"), no-repeat;
+}
+
+.feedback-title {
+    color: var(--text-main-color, #212529);
+    /* title/h2 */
+    font-family: "Helvetica", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedbacks {
+    margin-top: 32px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback {
+    padding: 40px;
+    text-align: center;
+    height: 327px;
+    width: 445px;
+    border: 1px solid #000;
+}
+
+.feedback .name {
+    color: var(--text-main-color, #212529);
+    /* text/large bold */
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 32px;
+}
+
+.feedback .feedback-text {
+    color: var(--text-main-color, #212529);
+    text-align: center;
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 20px;
+}
+
+.leave-a-request {
+    margin-top: 120px;
+    display: flex;
+}
+
+.want-leave-a-request {
+    display: block;
+    margin-left: 136px;
+}
+
+.want-leave-a-request h1 {
+    color: #000;
+    /* title/h2 */
+    font-family: "Helvetica", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.want-leave-a-request h3 {
+    color: #000;
+    margin-top: 32px;
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+form {
+    margin-top: 72px;
+}
+
+form input{
+    width: 562px;
+    margin-top: 16px;
+    border: none;
+    border-bottom: 1px solid #212529;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    padding-bottom: 12px;
+}
+
+form input::placeholder {
+    color: var(--text-main-color);
+}
+
+form input[type=submit] {
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    background: var(--text-main-color, #212529);
+    display: inline-flex;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 176px;
+}
+
+.links-to-download {
+    margin-top: 40px;
+}
+
+#google-play {
+    margin-left: 8px;
+}
+
+footer {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    color: var(--text-main-color, #212529);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+
+footer a {
+    color: var(--text-main-color, #212529);
+
+    text-decoration: none;
+    /* text/normal */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+footer #tg {
+    margin-left: 40px;
+}
